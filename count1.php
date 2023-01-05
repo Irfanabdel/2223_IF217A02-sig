@@ -1,6 +1,6 @@
 <?php
 include "koneksi.php";
-$Q = mysqli_query($koneksi, "select count(nama_umkm) as sma FROM `umkm`") or die(mysqli_error());
+$Q = mysqli_query($koneksi, "select count(nama_umkm) as 1 FROM `umkm`") or die(mysqli_error());
 if ($Q) {
         $posts = array();
         if (mysqli_num_rows($Q)) {
