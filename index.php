@@ -153,7 +153,7 @@
 
 
           <?php
-          include_once "countsma.php";
+          include_once "count1.php";
           $obj = json_decode($data);
           $sman = "";
           foreach ($obj->results as $item) {
@@ -166,7 +166,7 @@
             <br>
           </div>
           <?php
-          include_once "countsmk.php";
+          include_once "count2.php";
           $obj2 = json_decode($data);
           $smkn = "";
           foreach ($obj2->results as $item2) {
